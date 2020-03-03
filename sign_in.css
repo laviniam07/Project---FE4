@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-size: 14px;
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+#signin-box {
+    position: relative;
+    margin: 9% auto;
+    width: 1050px;
+    height: 500px;
+    background-color: #ebebeb;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.right {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    box-sizing: border-box;
+    padding: 70px;
+    width: 350px;
+    height: 450px;
+}
+
+h1 {
+    margin: -20px 0 30px 0;
+    font-size: 22px;
+    text-align: center;
+}
+.imglogo {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    box-sizing: border-box;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+  }
+  
+img.logo {
+    width: 35%;
+  }
+
+input[type=email], 
+input[type=password] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+input[type=email], 
+input[type=password]:hover {
+    border-color: green;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #48ad48;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a {
+    margin: 10px 0 0 10px;
+    font-size: 14px;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    width: 700px;
+    height: 500px;
+    background-image: url(./Img/Hero_Image.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+}

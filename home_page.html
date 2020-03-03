@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon Shop</title>
+    <link rel="stylesheet" type="text/css" href="home_page.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <header class="header-container">
+        <!-- NAVBAR-->        
+        <div class="headerRow1">
+            <div class="logo"><img src="./Img/canon-logo-png-clipart.png" alt="Canon" class="canonLogo"></div>
+            <div class="logoBar">
+                <a href="#"><i class="fa fa-shopping-cart"></i> Your cart</a>
+                <a href="Sign_up.html"><i class="fa fa-user-circle"></i> Register</a>
+                <a href="sign_in.html"><i class="fa fa-sign-in"></i> Login</a>
+            </div>
+        </div>
+        <div class="headerRow2">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="products.html">Cameras</a>
+                    <div class="sub-meniu-1">
+                        <ul>
+                            <li><a href="#">Digital SRL Cameras</a></li>
+                            <li><a href="#">Mirrorless Cameras</a></li>
+                            <li><a href="#">Point-and-Shoot Cameras</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Lenses</a>
+                    <div class="sub-meniu-1">
+                        <ul>
+                            <li><a href="#">View All Lenses</a></li>
+                            <li><a href="#">Standard & Medium Telephoto Lenses</a></li>
+                            <li><a href="#">Ultra Wide & Wide Angle Lenses</a></li>
+                            <li><a href="#">Macro Lenses</a></li>
+                            <li><a href="#">Tilt-Shift Lenses</a></li>
+                            <li><a href="#">Telephoto & Super Telephoto Lenses</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Flashes</a></li>
+                <li><a href="#">Accessories</a>
+                    <div class="sub-meniu-1">
+                        <ul>
+                            <li class="hover-me"><a href="#">EOS Interchangeable Lens Camera Accessories</a><i class="fa fa-angle-right"></i>
+                                <div class="sub-meniu-2">
+                                    <ul>
+                                        <li><a href="#">EOS Batteries, Chargers & Grips</a></li>
+                                        <li><a href="#">EOS Cases & Straps</a></li>
+                                        <li><a href="#">EOS Flash Accessories</a></li>
+                                        <li><a href="#">EOS Dioptric Lenses</a></li>
+                                        <li><a href="#">EOS Adapters & Cables</a></li>
+                                        <li><a href="#">EOS Remote Controllers & Microphones</a></li>
+                                        <li><a href="#">EOS Tripods & Other Accessories</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">PowerShot Digital Camera Accessories</a></li>
+                            <li><a href="#">EF & RF Lens Accessories</a></li>
+                            <li><a href="#">Calculator Accessories</a></li>
+                        </ul>
+                    </div></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="banner">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+         <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./Img/banner0.jpg" style="width:100%">
+                <div class="text">All-Around Quality</div>
+            </div>
+  
+            <div class="mySlides fade">                
+                <img src="./Img/banner1.jpg" style="width:100%">
+                <div class="text">Most Advanced Cameras</div>
+            </div>
+  
+            <div class="mySlides fade">                
+                <img src="./Img/banner2.jpg" style="width:100%">
+                <div class="text">For the Beauty of the Landscape</div>
+            </div>
+  
+        <!-- Next and previous buttons -->
+            <!-- <a class="prev" onclick="plusSlides()">&#10094;</a>
+            <a class="next" onclick="plusSlides()">&#10095;</a> -->
+        </div>
+        <br>
+  
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <script src="/home_page.js"></script>
+    </section>
+    <!-- Featured Categories -->
+    <section class="categories">
+        <h2>Featured Categories</h2>
+        <div class="row">
+            <div class="columnCameras">
+              <div class="content">
+                <img src="https://shop.usa.canon.com/estore/images/camera-homepage-image.png" alt="Cameras" style="width:100%">
+                <h4><a href="#">Cameras</a></h4>
+              </div>
+            </div>
+            <div class="columnCameras">
+              <div class="content">
+                <img src="https://shop.usa.canon.com/estore/images/lens-homepage-image2.png" alt="Lenses" style="width:100%">
+                <h4><a href="#">Lenses</a></h4>                
+              </div>
+            </div>
+            <div class="columnCameras">
+              <div class="content">
+                <img src="https://shop.usa.canon.com/estore/marketing/category-lenses-redesign/speedlite-flash.png" alt="Flashes" style="width:113%">
+                <h4><a href="#">Flashes</a></h4>                
+              </div>
+            </div>          
+            <div class="columnCameras">
+              <div class="content">
+                <img src="https://shop.usa.canon.com/estore/marketing/category/accessories/cases-straps.png" alt="Accessories" style="width:100%">
+                <h4><a href="#">Cases & Straps</a></h4>                
+              </div>
+            </div>
+            <div class="columnCameras">
+                <div class="content">
+                  <img src="https://shop.usa.canon.com/estore/marketing/category/accessories/ef-lens-acessories.png" alt="Accessories" style="width:100%">
+                  <h4><a href="#">EF Lens Accessories</a></h4>                
+                </div>
+              </div>
+              <div class="columnCameras">
+                <div class="content">
+                  <img src="https://shop.usa.canon.com/estore/marketing/category/accessories/calculator-accessories.png" alt="Accessories" style="width:100%">
+                  <h4><a href="#">Calculator Accessories</a></h4>                
+                </div>
+              </div>
+        </div>
+        <script>
+            filterSelection("all")
+            function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("columnCameras");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+            }
+
+            function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+            }
+
+            function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                }
+            }
+            element.className = arr1.join(" ");
+            }
+        </script>
+    </section>
+    <section class="searchField">
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Accessory Finder</h1>
+                <p>Type in your product name to view all compatible accessories</p>
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:400px">
+                    <input type="text" placeholder="Search By Product Name..." name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+            </div>
+        </div>
+    </section>      
+    <!-- Footer -->
+        <footer class="ct-footer">
+            <div class="ct-footer-post">
+                <div class="container">
+                    <div class="inner-left">
+                        <ul>
+                            <li>
+                                <a href="">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="">News</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="inner-right">
+                        <p>
+                            Copyright © 2020 Canon U.S.A. Inc.&nbsp;<a href="">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a class="ct-u-motive-color" href="" target="_blank">By digicert</a> on<a href="" target="_blank"> Symantec Website Security</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">            
+        </footer>
+</body>
+</html>

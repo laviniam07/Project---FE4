@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon Shop</title>
+    <link rel="stylesheet" type="text/css" href="products.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-container">
+        <!-- NAVBAR-->
+        <div class="headerRow1">
+            <div class="logo">
+                <img src="./Img/canon-logo-png-clipart.png" alt="Canon" class="canonLogo"></div>
+            <div class="logoBar">
+                <a href="#"><i class="fa fa-shopping-cart"></i> Your cart</a>
+                <a href="Sign_up.html"><i class="fa fa-user-circle"></i> Register</a>
+                <a href="sign_in.html"><i class="fa fa-sign-in"></i> Login</a>
+            </div>
+        </div>
+        <div class="headerRow2">
+            <ul>
+                <li class="active"><a href="home_page.html">Home</a></li>
+                <li><a href="products.html">Cameras</a>
+                    <div class="sub-meniu-1">
+                        <ul>
+                            <li><a href="#">Digital SRL Cameras</a></li>
+                            <li><a href="#">Mirrorless Cameras</a></li>
+                            <li><a href="#">Point-and-Shoot Cameras</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Lenses</a>
+                    <div class="sub-meniu-1">
+                        <ul>
+                            <li><a href="#">View All Lenses</a></li>
+                            <li><a href="#">Standard & Medium Telephoto Lenses</a></li>
+                            <li><a href="#">Ultra Wide & Wide Angle Lenses</a></li>
+                            <li><a href="#">Macro Lenses</a></li>
+                            <li><a href="#">Tilt-Shift Lenses</a></li>
+                            <li><a href="#">Telephoto & Super Telephoto Lenses</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Flashes</a></li>
+                <li><a href="#">Accessories</a>
+                    <div class="sub-meniu-1">
+                        <ul>
+                            <li class="hover-me"><a href="#">EOS Interchangeable Lens Camera Accessories</a><i
+                                    class="fa fa-angle-right"></i>
+                                <div class="sub-meniu-2">
+                                    <ul>
+                                        <li><a href="#">EOS Batteries, Chargers & Grips</a></li>
+                                        <li><a href="#">EOS Cases & Straps</a></li>
+                                        <li><a href="#">EOS Flash Accessories</a></li>
+                                        <li><a href="#">EOS Dioptric Lenses</a></li>
+                                        <li><a href="#">EOS Adapters & Cables</a></li>
+                                        <li><a href="#">EOS Remote Controllers & Microphones</a></li>
+                                        <li><a href="#">EOS Tripods & Other Accessories</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">PowerShot Digital Camera Accessories</a></li>
+                            <li><a href="#">EF & RF Lens Accessories</a></li>
+                            <li><a href="#">Calculator Accessories</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!----------Side meniu--->
+    <nav>
+        <div class="cd-filter">
+            <form>
+
+                <div id="coll-0" class="collapse in">
+                    <h4>Price Range $</h4>
+                    <input type="text" placeholder="50$" />
+                    -
+                    <input type="text" placeholder="10000$" />
+                </div>
+
+                <div class="cd-filter-block">
+                    <h4>Product series</h4>
+
+                    <ul class="cd-filter-content cd-filters list">
+                        <li>
+                            <input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+                            <label class="checkbox-label" for="checkbox1">DSLR</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+                            <label class="checkbox-label" for="checkbox2">Mirrorless</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                            <label class="checkbox-label" for="checkbox3">Point-and-Shoot</label>
+                        </li>
+                    </ul> <!-- cd-filter-content -->
+                </div> <!-- cd-filter-block -->
+
+                <div class="cd-filter-block">
+                    <h4>Experience Level</h4>
+
+                    <div class="cd-filter-content">
+                        <div class="cd-select cd-filters">
+                            <select class="filter" name="selectThis" id="selectThis">
+                                <option value="">Choose an option</option>
+                                <option value=".option1">Beginner</option>
+                                <option value=".option2">Intermediate</option>
+                                <option value=".option3">Advanced</option>
+                            </select>
+                        </div> <!-- cd-select -->
+                    </div> <!-- cd-filter-content -->
+                </div> <!-- cd-filter-block -->
+
+                <div class="cd-filter-block" id="">
+                    <h4>Camera Model</h4>
+
+                    <ul class="cd-filter-content cd-filters list">
+                        <li>
+                            <input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+                            <label class="checkbox-label" for="checkbox1">EOS 90D</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+                            <label class="checkbox-label" for="checkbox2">EOS Rebel Series</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                            <label class="checkbox-label" for="checkbox3">EOS-1D Series</label>
+                        </li>
+                        <li>
+                            <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                            <label class="checkbox-label" for="checkbox3">EOS-7D Series</label>
+                        </li>
+                        <li>
+                            <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                            <label class="checkbox-label" for="checkbox3">EOS-6D Series</label>
+                        </li>
+                        <li>
+                            <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                            <label class="checkbox-label" for="checkbox3">EOS-5D Series</label>
+                        </li>
+                    </ul> <!-- cd-filter-content -->
+                </div> <!-- cd-filter-block -->
+            </form>
+        </div> <!-- cd-filter -->
+    </nav>
+
+    <section class="products">
+        <h3><b>EOS INTERCHANGEABLE LENS CAMERAS</b></h3>
+        <div id="main">
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html">
+                        <img class="p-img" src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/EOS1DXIII_675x450_hero_1_l.png" /></a>
+                    <div class="p-name">EOS-1D X Mark III</div>
+                    <div class="p-price">$6,499.00</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-in">
+                    <a href="product_desc.html"><img class="p-img"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png" /></a>
+                    <div class="p-name">EOS Rebel T8i EF-S 18-55mm f/4-5.6 IS STM Kit</div>
+                    <div class="p-price">$899.99</div>
+                    <button class="p-add">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <!-- <footer class="ct-footer">
+            <div class="ct-footer-post">
+                <div class="container">
+                    <div class="inner-left">
+                        <ul>
+                            <li>
+                                <a href="">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="">News</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="inner-right">
+                        <p>
+                            Copyright © 2020 Canon U.S.A. Inc.&nbsp;<a href="">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a class="ct-u-motive-color" href="" target="_blank">By digicert</a> on<a href="" target="_blank"> Symantec Website Security</a>
+                        </p>
+                    </div>
+                </div>
+            </div>            
+        </footer> -->
+</body>
+
+</html>

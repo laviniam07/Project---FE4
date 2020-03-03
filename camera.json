@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "name": "Rick",
+        "email": "rick@gmail.com"
+    },
+    {
+        "id" : 2,
+        "name": "Dan",
+        "email": "dan@gmail.com"
+    },
+    {
+        "id" : 3,
+        "name": "Nicu",
+        "image": "https://i1.adis.ws/i/canon/canon_EOS_90D_360c_324654534168.png"
+    }
+]
