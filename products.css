@@ -241,7 +241,8 @@ nav {
     font-size: 15px;
     z-index: 2; 
     margin-top: 10px;
-    margin-left: 10px;background-color: lightgray;
+    margin-left: 20px;
+    /* background-color: lightgray; */
 }
 
 .cd-filter {
@@ -285,7 +286,7 @@ div.main-in {
     margin: 5px; 
     padding: 20px;
     border: 1px solid #e7fcde;
-    background: #f6fff2;
+    background: white;
 }
 img.p-img {
     width: 100%;
@@ -301,7 +302,7 @@ div.p-price {
 }
 
 button.p-add {
-    background: #f46b41;
+    background: #e60b0b;
     color: #fff;
     border: none;
     border-radius: 2px;
