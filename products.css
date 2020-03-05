@@ -169,6 +169,75 @@ header {
     background: lightgrey;
 }
 
+/*Search image hero*/
+.searchField {
+    position: relative;
+    line-height: normal;
+    width: 100%;
+    max-height: fit-content;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Img/canon-cashback-retina-banner-compressor.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Search field*/
+form.example input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+}
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 90px;
+    background: #4d4d4d;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #969292;
+  }
+  
+.hero-text h1,
+p {
+    overflow: hidden;
+    width: 98%;
+    text-align: center;
+    color: white;
+}
+.hero-text h1 {
+    padding-top: 90px;
+}
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 /*Footer*/
 
 .ct-footer-post {
@@ -359,6 +428,7 @@ header {
     font-size: 1.75em;
 }
 
+
 /*-----Side meniu------*/
 nav {
     float: left;
@@ -402,7 +472,8 @@ nav {
     flex-wrap: wrap;
     padding: 10px;
 }
-  /* Product items */
+
+/* Product items */
 div.main {
     width: 25%;
 }
@@ -414,14 +485,17 @@ div.main-in {
     border: 1px solid #e7fcde;
     background: white;
 }
+
 img.p-img {
     width: 100%;
     height: auto;
 }
+
 div.p-name {
     font-weight: bold;
     font-size: 1.1em;
 }
+
 div.p-price {
     font-size: 1.1em;
     /* color: #f44242; */

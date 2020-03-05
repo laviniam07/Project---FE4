@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
 }
 /* Style the header with a grey background and some padding */
+
 header {
     position: relative;
     background-color: #fff;
@@ -38,16 +39,15 @@ header {
 }
 
 .headerRow1 .logo {
-    /* display: block; */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
+
 .headerRow1 .canonLogo {
     float: left;
-    /* position: absolute; */
     align-content: flex-start;
     padding: 0 40px;
     width: 230px;
@@ -55,9 +55,7 @@ header {
 }
 
 .headerRow1 .logoBar {
-    /* overflow: hidden; */
     float: right;
-    /* display: block; */
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -85,7 +83,6 @@ header {
 .headerRow2 {
     background: lightgrey;
     margin: 0;
-    /* text-align: center; */
     overflow: hidden;   
 }
 
@@ -95,15 +92,10 @@ header {
     color: #4d4d4d;
 }
 
+
 /* Style the links inside the navigation bar */
+
 .headerRow2 ul li {
-    /* width: 20px;
-    margin: 5px 40px;
-    padding: 5px 10px; */
-    /* font-size: 18px;
-    width: 120px;
-    margin: 0;
-    padding: 15px; */
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -228,6 +220,7 @@ img {
   background-color: rgba(0,0,0,0.8);
 } */
 
+
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -282,6 +275,8 @@ img {
     to {opacity: 1}
   }
 
+
+/*-----Featured Categories-----*/
   .categories {
     max-width: 1000px;
     margin: auto;
@@ -337,6 +332,7 @@ h4 a {
     text-decoration: none;
     color: #4d4d4d;
 }
+
 
 /*Search image hero*/
 .searchField {
