@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="products.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <div class="logo">
                 <img src="./Img/canon-logo-png-clipart.png" alt="Canon" class="canonLogo"></div>
             <div class="logoBar">
-                <a href="#"><i class="fa fa-shopping-cart"></i> Your cart</a>
+                <a href="#"><i id="shopping-cart" class="fa fa-shopping-cart"></i> Your cart</a>
                 <a href="Sign_up.html"><i class="fa fa-user-circle"></i> Register</a>
                 <a href="sign_in.html"><i class="fa fa-sign-in"></i> Login</a>
             </div>
@@ -75,6 +76,48 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image"
+                            src="https://shop.usa.canon.com/wcsstore/ExtendedSitesCatalogAssetStore/eos-rebel-t8i-18-55-kitv2_4_l.png"
+                            width="100" height="70">
+                        <span class="cart-item-title">EOS Rebel T8i</span>
+                    </div>
+                    <span class="cart-price cart-column">$899.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image"
+                            src="https://shop.usa.canon.com/wcsstore/CanonB2BStoreFrontAssetStore/images/36187_1_l.jpg"
+                            width="100" height="70">
+                        <span class="cart-item-title">EOS 7D Mark II</span>
+                    </div>
+                    <span class="cart-price cart-column">$2,149.00</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$3,048.99</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+
     </header>
     <!----------Side meniu--->
     <nav>
